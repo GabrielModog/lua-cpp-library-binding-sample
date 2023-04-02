@@ -1,0 +1,1 @@
+g++ -shared -fpic - IC:/lua/include lib/mystate.cpp lib/mystate_lua.cpp -LC:/lua/lib -llua -o libmystate.dll
